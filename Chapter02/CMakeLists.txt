@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.20)
+project(Expert_CPP_ch02)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(01_operations 01_operations.cpp)
+add_executable(02_main_with_arguments 02_main_with_arguments.cpp)
+add_executable(03_calling_foo_before_main 03_calling_foo_before_main.cpp)
+add_executable(04_constructor_call 04_constructor_call.cpp)
+add_executable(05_auto_deduce 05_auto_deduce.cpp)
+add_executable(06_get_ratio 06_get_ratio.cpp)
+add_executable(07_constexpr 07_constexpr.cpp)
+add_executable(08_recursively_print_number 08_recursively_print_number.cpp)
+add_executable(09_calculate_max_sum 09_calculate_max_sum.cpp)
+add_executable(10_types 10_types.cpp)
+add_executable(11_char 11_char.cpp)

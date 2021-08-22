@@ -4,7 +4,7 @@ void foo() {
     std::cout << "Risky foo" << std::endl; 
 }
 
-// trying to call the foo() outside of the main() function
+// trying to call the foo() outside the main() function
 foo();
 
 int main() {
